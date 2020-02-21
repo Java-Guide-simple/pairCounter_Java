@@ -1,4 +1,4 @@
-## Problem Statement: Find the count of total number of pairs in an array having given difference ##
+## Problem Statement: Find total number of pairs in an array of given difference ##
 
 **Given an array of numbers, find the count of total number of pairs in an array having given difference. The given difference should not be negative**
    
@@ -22,6 +22,7 @@
 ------------------------------------------------------
     +computePairsCount(int[],int) : String
         -Should get int array and difference as inputs and return result as String 
+        -Should return message like "Give proper input array not null" if given array as null 
         -Should return like "2 pairs are found with the given difference" based on count of total number of pairs of that difference
 ------------------------------------------------------
     +displayResult(Object) : void

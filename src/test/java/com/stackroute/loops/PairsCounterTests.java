@@ -45,6 +45,13 @@ public class PairsCounterTests {
     }
 
     @Test
+    public void givenArrayAsNullThenReturnErrorMessage() {
+        int difference = 4;
+        String output = "Give proper input array not null";
+        assertEquals(output, pairsCounter.computePairsCount(null, difference), MESSAGE);
+    }
+
+    @Test
     public void givenValidDifferenceThenReturnTrue() {
         int difference = 4;
         assertTrue(pairsCounter.inputDifferenceValidator(difference), DIFFERENCE_MESSAGE);
