@@ -13,16 +13,16 @@
         -Should call computePairsCount method if inputs are valid 
 ------------------------------------------------------
     +inputDifferenceValidator(int) : boolean
-        -Should accept input as and check given input is valid or not
+        -Should accept input as and check given input is greater than equal to zero
         -Should return true if given input is valid otherwise false
 ------------------------------------------------------
     +inputArrayLengthValidator(int) : boolean
-        -Should accept input as int and validate it 
+        -Should accept input as int and check given input is a positive integer 
         -Should return true if given input is valid otherwise false
 ------------------------------------------------------
     +computePairsCount(int[],int) : String
         -Should get int array and difference as inputs and return result as String 
-        -Should return message like "Give proper input array not null" if given array as null 
+        -Should return message "Give proper input array not null" if given array as null 
         -Should return like "2 pairs are found with the given difference" based on count of total number of pairs of that difference
 ------------------------------------------------------
     +displayResult(Object) : void

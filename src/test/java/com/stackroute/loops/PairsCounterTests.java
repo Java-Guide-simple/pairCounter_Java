@@ -37,7 +37,7 @@ public class PairsCounterTests {
     }
 
     @Test
-    public void givenInputWithNumbersAndDifferenceIsZeroThenReturnResult() {
+    public void givenInputWithNumbersAndDifferenceAsZeroThenReturnResult() {
         int[] input = {1, 12, 43, 25, 7, 19, 43, 25, 1};
         int difference = 0;
         String output = "3 pairs are found with the given difference";
