@@ -12,6 +12,7 @@ public class PairsCounterTests {
 
     @BeforeEach
     public void setUp() {
+    	int i =10;
         pairsCounter = new PairsCounter();
     }
 
